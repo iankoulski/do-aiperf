@@ -17,7 +17,7 @@ LABEL BUILD="$BUILD"
 
 ADD Container-Root /
 
-RUN export http_proxy=$http_proxy; export https_proxy=$https_proxy; export no_proxy=$no_proxy; /setup.sh; rm -f /setup.sh
+RUN export http_proxy=$http_proxy; export https_proxy=$https_proxy; export no_proxy=$no_proxy; chmod +x /*.sh; /setup.sh; rm -f /setup.sh
 
 CMD /startup.sh
 
