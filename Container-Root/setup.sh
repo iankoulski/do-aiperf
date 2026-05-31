@@ -15,3 +15,6 @@ python3 -m venv venv
 source venv/bin/activate
 pip install aiperf
 
+echo "alias ll='ls -alh --color=auto'" >> /root/.bashrc
+echo "/welcome.sh" >> /root/.bashrc
+
