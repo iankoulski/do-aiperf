@@ -1,4 +1,4 @@
-ARG BASE_IMAGE_PATH="ubuntu:latest"
+ARG BASE_IMAGE_PATH="python:3.12"
 
 FROM $BASE_IMAGE_PATH
 
